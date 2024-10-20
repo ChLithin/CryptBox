@@ -1,36 +1,87 @@
-1) ls [option] [directory]
+1) ls [option]
+
+	ls    ---> lists all files in current directory.
+	ls -l ---> Lists files and directories in long format, displaying additional information like file permissions, number of links, owner, group, size, and modification date.
+	ls -R ---> Recursively lists all files in the directories and their subdirectories.
+	ls -S ---> Sorts files by size (largest first).
 	
-	common option : -l --- long listing formats
-	4 input combinations possible
 2) cd [directory]
-	3 input combinations possible
-	(cd .. ----> back to previoes directory)
+
+	cd    ---> Move to the home directory.
+	cd .. ---> Move up one directory (to the parent directory).
+	cd <directory path> ---> Move to a specific directory.
+
 3) cp <source> <destination_path>
-	1 combinaton
+
+	cp <fileName> <destinationPath>  ---> Copy a single file (fileName) from current directory to given destinationPath.
+	cp <fileName1> <fileName2> <destinationPath>  ---> Copy multiple files to a directory.
+
 4) mv <source> <destination_path>
-	2 combination
-	even for rename just write new name instead of path
+
+	mv <fileName> <destinationPath> ---> Move a file to another directory.
+	mv <fileName> <NewName> ---> Rename the source file.
+	mv <fileName1> <fileName2> <destinationPath>  ---> Move multiple files to a directory.
+
 5) rm [option] <file>
-	common options : -r ----> recursively remove directories
-	-f -----> force delete without confirmation
+	
+	rm <fileName> ---> Remove the given file in current directory.
+	rm <fileName1> <fileName2> ---> Remove multiple files in current directory.
+	rm -i <fileName> ---> Prompt before removing each file.
+	rm -r <directoryName> ---> Remove a directory and its contents recursively.
+	rm -ri <directoryName> ---> Prompt before removing given directory.
+
 6) touch <file>
+
+	touch <fileName> ---> Create a new file in current directory.
+
 7) cat <file>
-8) mkdir <name>
-9)rmdir <name>
-10) search [option] <label>
-	options : -r ----> search in all directries from current
-		-o -----> only in current directory
-11)filter [option] <extention>
-	option : -e -----> filter by encryption status  in current directory(only option is needed)[2 cases]
-		-r -----> filter with extention in current directory(option along with extention needed)
-12) status <file_name>
-	tells the info about encryption if file exist in current directory
-		
-13) encrypt <filename> <passkey>
-	encrypts the file in current directory
-14) decrypt <filename> <passkey>
-15) addlabel <file name> <label>
-	2 cases folder,file
-16) space //tell the space remaining 
-17)share <filename> -<username>
-18) del // to delete account and data related to them
+
+	cat <fileName> ---> Display the contents of a file.
+
+8)echo <"text_to_add"> [option] <source>
+
+	echo "text" > <fileName> ---> Overwrite a file.
+	echo "tect" >> <fileName> ---> Append to a file.
+
+9) mkdir <name> ---> Create a new directory in the current directory.
+
+10) rmdir <name> ---> Removes the given directory.
+
+11) search [option] <label>
+
+	search -r <label> ---> search for a file/folder in the all the child directories (including the current directory)
+	search -i <label> ---> search for a file/folder in the current directory
+	
+12) filter <extension>
+
+	filter ---> filter by encryption status in current directory.
+	filter <extension> ---> filter by extension and encryption status in the current directory.
+
+13) status <file_name>
+
+	status ---> tells if the current directory is encrypted.
+	status <filename> ---> tells if the given file is encrypted.
+ 		
+14) encrypt <filename> <passkey>
+
+	encrypt <passkey> ---> encrypts the current directory.
+	encrypt <filename> <passkey> ---> encrypts the given file in the current directory. 	
+
+15) decrypt <filename> <passkey>
+
+	decrypt <passkey> ---> decrypts the current directory.
+	decrypt <filename> <passkey> ---> decrypts the given file in the current directory. 	
+
+16) addlabel <filename> <label>
+
+	addlabal <label> ---> adds label to the current directory.
+	addlabel <filename> <label> ---> adds label to the given file name in the directory.
+
+17) space ---> displays the remaining space available for the current user.
+
+18)share <filename> <username>
+
+	share <username> ---> shares the current directory to the mentioned user.
+	share <filename> <username> ---> shares the mentioned file to the mentioned user.
+
+19) del ---> to delete account and data related to current user.
