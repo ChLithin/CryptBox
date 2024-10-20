@@ -8,12 +8,11 @@
 
     2)Verified Deletion (for encrypted files): Requires OTP verification or additional steps before deleting encrypted files.
 
-    3)Secure File Sharing: Encrypted file transfer between users (e.g., encrypt a shared file specifically for the recipient).
 
 3. Advanced File Management
-    1)Search by Labels/Tags: Users can label files (e.g., "work", "personal") and search/filter based on these tags.
+    1)Search by Labels/Tags: Users can label files (e.g., "work", "personal") and search based on these tags.
 
-    2)Search/Filter by File Extension and Encryption Status: Allow users to filter files by both extension and encryption status (e.g., only show .txt files that are encrypted).
+    2)Filter by File Extension and Encryption Status: Allow users to filter files by both extension and encryption status (e.g., only show .txt files that are encrypted).
 
-    3)Custom File Metadata: Allow users to add custom metadata (notes, labels) to each file/folder.
+    3)Custom File Metadata: Allow users to add custom metadata (labels) to each file/folder.adding a new encrypted bit to metadata
 
