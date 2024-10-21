@@ -82,11 +82,11 @@
 	deletelabel ---> delete label associated with current directory.
 	deletelabel <filename> ---> delete label associated with given file.
 
-17) space ---> displays the remaining space available for the current user.
+18) space ---> displays the remaining space available for the current user.
 
-18)share <filename> <username>
+19)share <filename> <username>
 
 	share <username> ---> shares the current directory to the mentioned user.
 	share <filename> <username> ---> shares the mentioned file to the mentioned user.
 
-19) del ---> to delete account and data related to current user.
+20) del ---> to delete account and data related to current user.
