@@ -28,6 +28,24 @@ CryptBox/
 └── build.bat
 ```
 
+---
+
+## System Setup
+
+Before running the CryptBox application, you need to configure the system as follows:
+
+### Step 1: Create a `System` Folder
+1. Create a folder named `System` at a location of your choice on your computer.
+   - This folder will act as the root directory for CryptBox.
+
+### Step 2: Specify the Folder Path in `StorageNode.java`
+1. Open the `StorageNode.java` file located in `src/java/`.
+2. Update the `truePath` attribute with the absolute path of the `System` folder.
+
+#### Example:
+```java
+public static final String truePath = "C:\\CryptBox\\System"; // Replace with your folder path
+```
 
 ## Features
 
