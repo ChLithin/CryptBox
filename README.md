@@ -75,4 +75,12 @@ To compile and run the project, follow the steps below:
   ```bash
   build.bat
   ```
-  
+## Supported Commands
+
+A comprehensive list of all supported commands can be found in the [`commands.txt`](docs/commands.txt) file located in the `docs` directory.  
+
+##Software Requirements Specification (SRS)
+
+For detailed technical requirements and system specifications, refer to the [`SRS.pdf`](docs/SRS.pdf) file located in the `docs` directory.
+
+
