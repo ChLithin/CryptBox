@@ -1,0 +1,88 @@
+1) ls [option]
+
+	ls    ---> lists all files in current directory.
+	ls -l ---> Lists files and directories in long format, displaying additional information like file permissions, number of links, owner, group, size, and modification date.
+	
+	
+2) cd [directory]
+
+	cd    ---> Move to the home directory.
+	cd .. ---> Move up one directory (to the parent directory).
+	cd <directory path or name> ---> Move to a specific child directory.
+
+3) cp <source> <destination_path>
+
+	cp <fileName> <destinationPath>  ---> Copy a single file (fileName) from current directory to given destinationPath.
+	cp <destinationPath> ---> Copy current directory to given path.
+
+4) mv <source> <destination_path>
+
+	mv <fileName> <destinationPath> ---> Move a file to another directory.
+	mv <destinationPath> ---> Move current directory to given path.
+
+5) rm [option] <file>
+	
+	rm <fileName> ---> Remove the given file in current directory.
+	rm -i <fileName> ---> Prompt before removing  file.
+
+6) touch <file>
+
+	touch <fileName> ---> Create a new file in current directory.
+
+7) cat <file>
+
+	cat <fileName> ---> Display the contents of a file.
+
+8)echo <"text_to_add"> [option] <source>
+
+	echo "text" > <fileName> ---> Overwrite a file.
+	echo "text" >> <fileName> ---> Append to a file.
+
+9) mkdir <name> ---> Create a new directory in the current directory.
+
+10) rmdir <name> ---> Removes the given directory.
+
+11) search [option] <label>
+
+	search -r <label> ---> search for a file/folder with given label in the all the child directories (including the current directory)
+	search -i <label> ---> search for a file/folder with given label in the current directory
+	
+12) filter <extension>
+
+	filter ---> filter both files and folders by encryption status in current directory.
+	filter <extension> ---> filter files by extension and encryption status in the current directory.
+
+13) status <file_name>
+
+	status ---> tells if the current directory is encrypted.
+	status <filename> ---> tells if the given file is encrypted.
+ 		
+14) encrypt <filename> <passkey>
+
+	encrypt <passkey> ---> encrypts the current directory.
+	encrypt <filename> <passkey> ---> encrypts the given file in the current directory. 	
+
+15) decrypt <filename> <passkey>
+
+	decrypt <passkey> ---> decrypts the current directory.
+	decrypt <filename> <passkey> ---> decrypts the given file in the current directory. 	
+
+16) addlabel <filename> <label>
+
+	addlabal <label> ---> adds label to the current directory.
+	addlabel <filename> <label> ---> adds label to the given file name in the directory.
+
+17) deletelabel <filename>
+
+	deletelabel ---> delete label associated with current directory.
+	deletelabel <filename> ---> delete label associated with given file.
+
+18) space ---> displays the remaining space available for the current user.
+
+19)share <filename> <username>
+
+	share <username> ---> shares the current directory to the mentioned user.
+	share <filename> <username> ---> shares the mentioned file to the mentioned user.
+
+20) Logout
+20) del ---> to delete account and data related to current user.
