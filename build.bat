@@ -10,7 +10,7 @@ if errorlevel 1 (
 
 REM Step 2: Generate JNI header files
 echo Generating JNI header files...
-javac -h src/cpp src/java/CustomFile.java src/java/CustomFolder.java
+javac -h src/cpp src/java/StorageNode.java src/java/CustomFolder.java src/java/CustomFile.java
 if errorlevel 1 (
     echo Error: JNI header generation failed.
     exit /b 1
