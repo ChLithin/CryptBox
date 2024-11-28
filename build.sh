@@ -9,7 +9,7 @@ javac -d bin src/java/*.java
 
 # Step 2: Generate header files for JNI
 echo "Generating JNI headers..."
-javac -h src/cpp src/java/CustomFile.java src/java/CustomFolder.java
+javac -h src/cpp src/java/StorageNode.java src/java/CustomFolder.java src/java/CustomFile.java
 
 # Step 3: Compile and create the shared library for C++ code
 #change the jni path accordingly
