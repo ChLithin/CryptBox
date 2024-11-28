@@ -75,7 +75,7 @@ public static final String truePath = "C:\\CryptBox\\System"; // Replace with yo
 
 ## Setup Instructions
 
-### 1. Clone the repository
+### Step 1. Clone the repository
 
 To clone the repository, open your terminal or command prompt and run:
 
@@ -83,13 +83,23 @@ To clone the repository, open your terminal or command prompt and run:
 git clone https://github.com/ChLithin/cryptbox.git
 cd CryptBox
 ```
+
+### Step 2: Compile and Run the Project
 To compile and run the project, follow the steps below:
 
-- For **macOS**, use the following command:
+- For **macOS/Linux**:
+  1. Ensure the build.sh script has the necessary execution permissions:
+   ```bash
+   chmod +x build.sh
+   ```
+  2. Run the shell script to build the project:
   ```bash
   ./build.sh
   ```
-- For **Windows**, use the following command:
+- For **Windows**:
+  1. Ensure the build.bat file is not restricted by your system's permissions.
+      * If restricted, right-click the file, select "Properties," and under the "Security" tab, grant full control.
+   2. Run the batch script to build the project:
   ```bash
   build.bat
   ```
