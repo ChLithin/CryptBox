@@ -103,6 +103,7 @@ To compile and run the project, follow the steps below:
   ```bash
   ./build.bat
   ```
+  make sure you change jni path in build.sh/build.bat
 ## Supported Commands
 
 A comprehensive list of all supported commands can be found in the [`commands.txt`](docs/commands.txt) file located in the `docs` directory.  
