@@ -101,7 +101,7 @@ To compile and run the project, follow the steps below:
       * If restricted, right-click the file, select "Properties," and under the "Security" tab, grant full control.
    2. Run the batch script to build the project:
   ```bash
-  build.bat
+  ./build.bat
   ```
 ## Supported Commands
 
