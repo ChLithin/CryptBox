@@ -2,7 +2,7 @@ import java.io.Serializable;
 
 
 abstract class StorageNode implements Serializable{
-    protected static final String truePath = "/Users/lithin/Desktop/System";  // change this to your desired path
+    protected static final String truePath = "C:\\CryptBox\\System";  // change this to your desired path
     private static final long serialVersionUID = 1L;
     protected final String name;
     protected String path;  //including the file/folder name
