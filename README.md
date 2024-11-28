@@ -80,7 +80,7 @@ public static final String truePath = "C:\\CryptBox\\System"; // Replace with yo
 To clone the repository, open your terminal or command prompt and run:
 
 ```bash
-git clone https://github.com/yourusername/cryptbox.git
+git clone https://github.com/ChLithin/cryptbox.git
 cd CryptBox
 ```
 To compile and run the project, follow the steps below:
