@@ -112,4 +112,8 @@ A comprehensive list of all supported commands can be found in the [`commands.tx
 
 For detailed technical requirements and system specifications, refer to the [`SRS.pdf`](docs/SRS.pdf) file located in the `docs` directory.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
